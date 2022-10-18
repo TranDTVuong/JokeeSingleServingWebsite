@@ -1,0 +1,50 @@
+/* Mobile & Tablet */
+@media (max-width: 1023px){
+    :root{
+        --header-height: 80px;
+    }
+
+    /* Header */
+    .logo,
+    .avatar{
+        width: 60px;
+    }
+
+    .avatar{
+        border-radius: 30px;
+    }
+
+    /* Votes joke */
+    .btn{
+        width: 100%;
+    }
+
+    .joke__votes .btn{
+        margin-left: 0;
+        margin-right: 0;
+    }
+}
+
+/* Mobile */
+@media (max-width: 729px) {
+    :root{
+        --header-height: 60px;
+    }
+
+    /* Header */
+    .logo,
+    .avatar{
+        width: 40px;
+    }
+
+    .avatar{
+        border-radius: 20px;
+    }
+
+    /* Votes joke */
+    .joke__votes .btn{
+        margin-top: 24px;
+        margin-left: 0;
+        margin-right: 0;
+    }
+}

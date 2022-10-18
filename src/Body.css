@@ -1,0 +1,77 @@
+/* App content */
+.app__content{
+    display: block;
+  }
+  
+  .slogan{
+    display: flex;
+    background-color: var(--green-color);
+    width: 100%;
+    height: 250px;
+  }
+  
+  .slogan__content{
+    margin: auto;
+  }
+  
+  .slogan__title{
+    font-size: 2.8rem;
+    color: var(--white-color);
+    text-align: center;
+    line-height: 3rem;
+  }
+  
+  .slogan__note{
+    font-size: 1.2rem;
+    color: var(--white-color);
+    text-align: center;
+  }
+  
+  .joke{
+    margin-bottom: 100px;
+  }
+  
+  #joke__content{
+    font-size: 1.6rem;
+    color: var(--text-color);
+    line-height: 2.4rem;
+    width: 80%;
+    padding: 52px 0;
+    margin: auto;
+  }
+  
+  
+  .joke__votes{
+    display: flex;
+    justify-content: center;
+    width: 70%;
+    margin: auto;
+    border-top: #ececec 1px solid;
+  }
+  
+  .joke__votes .btn{
+    margin-top: 52px;
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+  /* Footer */
+  .footer {
+    border-top: #ccc 2px solid;
+    padding: 40px 0 0;
+  }
+  
+  .about{
+    display: flex;
+    justify-content: center;
+  }
+  
+  .about__rules,
+  .about__copyright{
+    font-size: 12px;
+    text-align: center;
+    width: 70%;
+  }
+  
+  .about__rules{
+    color: var(--text-color-2);
+  }

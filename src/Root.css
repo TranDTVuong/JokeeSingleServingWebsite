@@ -1,0 +1,64 @@
+:root{
+    --green-color: #29b363;
+    --blue-color: #2c7edb;
+    --body-color: #fcfcfc;
+    --white-color: #fff;
+  
+    --text-color: #646464;
+    --text-color-2: #969696;
+  
+    --header-height: 100px;
+  }
+  
+  *{
+    box-sizing: inherit;
+  }
+  
+  body {
+    margin: 0;
+  }
+  
+  html{
+    font-size: 62.5%;
+    line-height: 1.6rem;
+    font-family: 'Dosis', sans-serif;
+    box-sizing: border-box;
+  }
+  
+  .main{
+    overflow: hidden;
+  }
+  
+  /* Button style */
+  
+  .btn{
+    display: inline-flex;
+    min-width: 270px;
+    height: 52px;
+    line-height: 1.6rem;
+    text-decoration: none;
+    border: none;
+    font-size: 1.6rem;
+    padding: 0 12px;
+    outline: none;
+    cursor: pointer;
+    color: var(--white-color);
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--white-color);
+    border-bottom: #0000002d 4px solid;
+    transition: ease 0.2s;
+  }
+  
+  .btn.btn--like{
+    background-color: var(--blue-color);
+  }
+  
+  .btn.btn--unlike{
+    background-color: var(--green-color);
+  }
+  
+  .btn:hover{
+    background-color: rgba(124, 69, 253, 0.61);
+  }
