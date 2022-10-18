@@ -7,12 +7,14 @@ function Header() {
     <header className="header">
       <div className="grid wide">
         <div className="header__content">
+
           {/* Logo webste */}
           <div className="header__logo">
                 <img className="logo" src={logo} alt="logo"/>
           </div>  
+
           {/* User */}
-          <div className="user">
+          <div className="user">            
               <div className="col l-6">
                   <div className="user__details">
                       <p className="user__title">Handicrafted by</p>

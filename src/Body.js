@@ -87,6 +87,7 @@ function Body() {
         // Stop Propagation
         e.stopPropagation();
 
+        // Check if user had read all joke story
         if( isReadAll || currentStory >= numStories){
             setStory("That's all the jokes for today! Come back another day!")
             return;
@@ -112,10 +113,12 @@ function Body() {
                 </div>
             </div>
 
+            {/* Joke Content */}
             <div className="joke">
                 <div className="grid wide">
                     <div className="row">
                         <div className="col l-12 m-12 c-12">
+
                             <div className="row">
                                 {/* Joke paragrah */}
                                 <p id="joke__content">{story}</p>
@@ -132,6 +135,7 @@ function Body() {
                                     </div>
                                 </div>
                             </div>
+
                         </div>                       
                     </div>                   
                 </div>

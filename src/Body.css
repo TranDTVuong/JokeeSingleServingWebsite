@@ -54,24 +54,3 @@
     margin-left: 15px;
     margin-right: 15px;
   }
-  /* Footer */
-  .footer {
-    border-top: #ccc 2px solid;
-    padding: 40px 0 0;
-  }
-  
-  .about{
-    display: flex;
-    justify-content: center;
-  }
-  
-  .about__rules,
-  .about__copyright{
-    font-size: 12px;
-    text-align: center;
-    width: 70%;
-  }
-  
-  .about__rules{
-    color: var(--text-color-2);
-  }
